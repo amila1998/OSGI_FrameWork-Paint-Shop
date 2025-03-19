@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PaintShopAdminConsumer
+Bundle-SymbolicName: PaintShopAdminConsumer
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.osgi.framework;version="1.10.0",
+ paintshopadminproducer,
+ paintshopmixerproducer
+Automatic-Module-Name: PaintShopAdminConsumer
+Bundle-Activator: paintshopadminconsumer.PaintShopAdminConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15

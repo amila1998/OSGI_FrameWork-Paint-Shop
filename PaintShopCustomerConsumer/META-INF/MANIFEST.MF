@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PaintShopCustomerConsumer
+Bundle-SymbolicName: PaintShopCustomerConsumer
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: PaintShopCustomerConsumer
+Bundle-Activator: paintshopcustomerconsumer.PaintShopCustomerConsumerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Import-Package: org.osgi.framework;version="[1.10.0,2.0.0)",
+ paintshopcustomerproducer,
+ paintshopmixerproducer,
+ paintshoporderproducer

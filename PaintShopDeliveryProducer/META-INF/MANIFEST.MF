@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PaintShopDeliveryProducer
+Bundle-SymbolicName: PaintShopDeliveryProducer
+Bundle-Version: 1.0.0.qualifier
+Export-Package: paintshopdeliveryproducer
+Import-Package: org.osgi.framework;version="1.10.0"
+Automatic-Module-Name: PaintShopDeliveryProducer
+Bundle-Activator: paintshopdeliveryproducer.PaintShopDeliveryProducerActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-15
+Bundle-ActivationPolicy: lazy
